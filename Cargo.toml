@@ -2,6 +2,6 @@
 members = [
     "api/lib",
     "api/shuttle",
-    "shared"
+    "shared",
     "front",
 ]
