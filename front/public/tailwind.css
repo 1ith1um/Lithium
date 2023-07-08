@@ -50,6 +50,7 @@ html {
   /* 5 */
   font-variation-settings: normal;
   /* 6 */
+  background-color: beige;
 }
 
 /*
@@ -118,6 +119,7 @@ Add the correct font weight in Edge and Safari.
 b,
 strong {
   font-weight: bolder;
+  text-align: center;
 }
 
 /*
