@@ -11,7 +11,9 @@ fn main() {
 fn App(cx: Scope) -> Element {
     cx.render(rsx! {
         div {
+            style: "text-align: center",
             b {
+                style: "font-size: 50px",
                 "Lithium"
             }
        }
