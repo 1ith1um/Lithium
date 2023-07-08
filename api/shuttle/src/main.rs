@@ -11,7 +11,7 @@ async fn hello_world() -> &'static str {
 async fn axum(
     // Name your static assets folder by passing `folder = <name>` to `StaticFolder`
     // If you don't pass a name, it will default to `static`.
-    #[shuttle_static_folder::StaticFolder(folder = "assets")] static_folder: PathBuf,
+    #[shuttle_static_folder::StaticFolder(folder = "static")] static_folder: PathBuf,
 ) -> shuttle_axum::ShuttleAxum {
     let router = Router::new()
         .route("/", get(hello_world))
