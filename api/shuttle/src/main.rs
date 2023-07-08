@@ -18,10 +18,14 @@ async fn axum(
         .into_string()
         .unwrap()
         + "/index.html";
-    let router = Router::new()
-        .route("/", get(|| async { "test" }))
-        .nest_service("/assets", serve_dir)
-        .fallback_service(ServeFile::new(fall));
+    // let router = Router::new()
+    //.route("/", get(|| async { "test" }))
+    //.nest_service("/assets", serve_dir)
+    //.fallback_service(ServeFile::new(fall));
 
+    let router = Router::new()
+        .route("/api", get(|| async { "test" }))
+        .nest_service("/", serve_dir)
+        .fallback_service(ServeFile::new(fall));
     Ok(router.into())
 }
