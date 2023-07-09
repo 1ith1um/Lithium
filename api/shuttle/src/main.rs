@@ -25,7 +25,7 @@ async fn axum(
 
     let router = Router::new()
         .route("/api", get(|| async { "test" }))
-        .nest_service("/", serve_dir)
-        .fallback_service(ServeFile::new(fall));
+        .nest_service("/", serve_dir);
+    //.fallback_service(ServeFile::new(fall));
     Ok(router.into())
 }

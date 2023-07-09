@@ -15,7 +15,7 @@ fn App(cx: Scope) -> Element {
             style: "text-align: center",
                         b {
                 style: "font-size: 50px",
-                "Lithium"
+                "test"
             }
        }
     })

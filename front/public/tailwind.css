@@ -50,7 +50,12 @@ html {
   /* 5 */
   font-variation-settings: normal;
   /* 6 */
-  background-image: url('perlin.jpg');
+  background-color: rgb(28,28,28);
+
+  background-image: url('fractal-black.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 /*
@@ -119,6 +124,7 @@ Add the correct font weight in Edge and Safari.
 b,
 strong {
   font-weight: bolder;
+  color: white;
 }
 
 /*
