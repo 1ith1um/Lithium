@@ -10,9 +10,10 @@ fn main() {
 // Define a component that renders a div with the text "Hello, world!"
 fn App(cx: Scope) -> Element {
     cx.render(rsx! {
+
         div {
             style: "text-align: center",
-            b {
+                        b {
                 style: "font-size: 50px",
                 "Lithium"
             }

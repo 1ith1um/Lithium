@@ -50,7 +50,7 @@ html {
   /* 5 */
   font-variation-settings: normal;
   /* 6 */
-  background-color: beige;
+  background-image: url('perlin.jpg');
 }
 
 /*
@@ -120,6 +120,7 @@ b,
 strong {
   font-weight: bolder;
   text-align: center;
+  color: white;
 }
 
 /*
