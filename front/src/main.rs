@@ -17,8 +17,18 @@ fn App(cx: Scope) -> Element {
        div {
             style: "text-align: center; font-family: monospace;",
             b {
-                style: "font-size: 50px",
-                "<lithium>"
+                style: "font-size: 50%",
+                pre {
+                    style: "line-height: 1.3",
+r#"
+ __         __     ______   __  __     __     __  __     __    __   
+/\ \       /\ \   /\__  _\ /\ \_\ \   /\ \   /\ \/\ \   /\ '-./  \  
+\ \ \____  \ \ \  \/_/\ \/ \ \  __ \  \ \ \  \ \ \_\ \  \ \ \-./\ \ 
+ \ \_____\  \ \_\    \ \_\  \ \_\ \_\  \ \_\  \ \_____\  \ \_\ \ \_\
+  \/_____/   \/_/     \/_/   \/_/\/_/   \/_/   \/_____/   \/_/  \/_/
+"#                       
+
+               }
             }
        }
         div {
