@@ -36,16 +36,18 @@ r#"
             style: "padding-top: 200px;",
 
             a {
+                class: "hover-underline-animation",
                 href: "https://github.com/1ith1um",
-                "<git>"
+                "GIT"
             }
 
         div {
             class: "hyp",
 
             a {
+                class: "hover-underline-animation",
                 href: "https://discord.com/users/435162411729944591",
-                "<discord>"
+                "DISCORD"
             }
         }
 
@@ -53,8 +55,9 @@ r#"
             class: "hyp",
 
             a {
+                class: "hover-underline-animation",
                 href: "https://matrix.to/#/@paper101:matrix.org",
-                "<matrix>"
+                "MATRIX"
             }
         }
         }
